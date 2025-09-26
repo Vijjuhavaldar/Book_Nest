@@ -23,44 +23,8 @@ A full-featured book review and management application built with the MERN stack
 
   - Personalized profiles to track activity.
   - Manage and curate a list of favorite books.
+  
 
-- **Advanced Feature:**
-
-  - Unique nested commenting system using Depth-First Search (DFS) for efficient comment deletion within the review tree structure.
-
-- **User Roles & Permissions:**
-  - Differentiation between user and admin roles.
-  - Admin capabilities to add, update, and delete book listings.
-  - Manage user data and user roles (excluding a master admin).
-
-## Technologies Used
-
-- **Frontend:**
-
-  - React.js
-  - Recoil for State Management
-  - Tailwind CSS
-  - Shadcn UI library
-  - React Hook Form
-  - Tanstack Tables
-  - Lucide-React for icons
-
-- **Backend:**
-
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Mongoose for MongoDB object modeling
-  - Multer for handling `multipart/form-data`
-  - CORS for Cross-Origin Resource Sharing
-  - JWT for token-based authentication
-  - Bcrypt for secure password storage
-
-- **Other Dependencies:**
-  - Axios
-  - Zod for schema validation
-  - React Router DOM for routing
-  - Cloudinary for image uploads (optional)
 
 ## Installation Guide
 
@@ -69,24 +33,6 @@ A full-featured book review and management application built with the MERN stack
 - Node.js
 - MongoDB
 
-You can use use Mongo Atlas URL instead of local MongoDB
-
-### Configure Environment Variables
-
-Rename .env.example to .env in both backend and frontend directories.
-
-Add your `MONGO_URL`, `JWT_SECRET`, `CLOUD_NAME`, `CLOUD_API_KEY`, `CLOUD_API_SECRET`, and `PORT` to the backend .env files.
-
-If you don't have Cloudinary, you can replace `cloudStorage` with `diskStorage` in `/backend/middleware/upload.js`.
-
-### Installation
-
-#### Clone the Repository
-
-```shell
-git clone https://github.com/NEET64/book-world.git
-cd book-world
-```
 
 #### Install packages
 
